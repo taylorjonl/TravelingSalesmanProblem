@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net7.0</TargetFramework>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="graph.tsp" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="graph.tsp">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\TravelingSalesmanProblem.Common\TravelingSalesmanProblem.Common.csproj" />
+  </ItemGroup>
+
+</Project>

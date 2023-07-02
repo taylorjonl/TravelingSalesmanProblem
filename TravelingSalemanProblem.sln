@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TravelingSalesmanProblem.Common", "TravelingSalesmanProblem.Common\TravelingSalesmanProblem.Common.csproj", "{92DFA83C-01BD-4C1C-86C5-FC53F3549971}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TravelingSalesmanProblem.BudgetedPrizeCollecting", "TravelingSalesmanProblem.BudgetedPrizeCollecting\TravelingSalesmanProblem.BudgetedPrizeCollecting.csproj", "{D3B488D5-8062-4205-916F-542200B3D5BF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{92DFA83C-01BD-4C1C-86C5-FC53F3549971}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{92DFA83C-01BD-4C1C-86C5-FC53F3549971}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{92DFA83C-01BD-4C1C-86C5-FC53F3549971}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{92DFA83C-01BD-4C1C-86C5-FC53F3549971}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D3B488D5-8062-4205-916F-542200B3D5BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D3B488D5-8062-4205-916F-542200B3D5BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D3B488D5-8062-4205-916F-542200B3D5BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D3B488D5-8062-4205-916F-542200B3D5BF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E47603F3-ECBD-4185-8BC2-AB471D925C34}
+	EndGlobalSection
+EndGlobal
